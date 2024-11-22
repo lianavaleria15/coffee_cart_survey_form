@@ -33,11 +33,18 @@ form{
     padding-bottom: 2em;
 }
 
-fieldset{
+fieldset, input{
     display:block;
-    border:none;
+    
 }
 
+fieldset{
+    border:none;
+}
 label{
     text-align: left;
+}
+
+#definitely, #maybe, #not_sure{
+    display: inline;
 }
