@@ -1,7 +1,7 @@
 body{
     background-image: url('../images/coffee_cart_background.jpg');
     background-repeat:no-repeat;
-    background-size: contain;
+ background-size: cover;
     background-position: center;
     font-family: "Open Sans", sans-serif;
     font-size:18px;
@@ -11,6 +11,9 @@ body{
     height: 100vh;
 }
 
+#title-section{
+    align-content: center;
+}
 #title, #subtitle{
     background-color: #0e0d0d;
     color:azure;
@@ -18,4 +21,23 @@ body{
     text-align: center;
     max-width: fit-content;
 
+}
+
+form{
+    background-color: white;
+    color: black;
+    width:50vh;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset{
+    display:block;
+    border:none;
+}
+
+label{
+    text-align: left;
 }
