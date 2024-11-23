@@ -23,11 +23,11 @@
                     <label for="email">Email</label>
                     <input id="email" name="email" type="email" required placeholder="Enter your email">
                     <label for="age">Age</label>
-                    <input id="age" name="age" type="number" min="16" max="100">
+                    <input id="age" name="age" type="number" min="16" max="100" required placeholder="Enter your age">
                 </fieldset>
                 <fieldset id="dropdown">
                     <label for="dropdown">Which one of our coffee shops have you tried?</label>
-                    <select name="dropdown" id="dropdown"></select>
+                    <select name="dropdown" id="dropdown">
                         <option>Select location</option>
                         <option>Worcester</option>
                         <option>Birmingham</option>
@@ -43,22 +43,23 @@
                     <input id="not_sure" type="radio" name=""recommendation>not sure</input>
                 </fieldset>
                 <fieldset id="products">
-                    <legend>Which one of our products do you like?</legend>
-                    <label for="coffee">Coffee</label>
-                    <input type="checkbox" id="coffee" name="coffee"></input>
+                    <legend>Which one of our products do you like? (Check all that you like)</legend>
+                    <label for="coffee">Coffee
+                        <input class="inline" type="checkbox" id="coffee" name="coffee"></input>
+                    </label>
                     <label for="tea">Tea</label>
-                    <input type="checkbox" id="tea" name="tea"></input>
+                    <input class="inline" type="checkbox" id="tea" name="tea"></input>
                     <label for="burgers">Burgers</label>
-                    <input type="checkbox" id="burgers" name="burgers"></input>
+                    <input class="inline" type="checkbox" id="burgers" name="burgers"></input>
                     <label for="paninis">Paninis</label>
-                    <input type="checkbox" id="paninis" name="paninis"></input>
+                    <input class="inline" type="checkbox" id="paninis" name="paninis"></input>
                     <label for="cakes">Cakes</label>
-                    <input type="checkbox" id="cakes" name="cakes"></input>
+                    <input class="inline" type="checkbox" id="cakes" name="cakes"></input>
                     <label for="icecream">Ice cream</label>
-                    <input type="checkbox" id="icecream" name="icecream"></input>
+                    <input class="inline" type="checkbox" id="icecream" name="icecream"></input>
                 </fieldset>
                 <fieldset id="written_feedback">
-                    <textarea name="written feddback" id="textarea"></textarea>
+                    <textarea name="written feddback" id="textarea" placeholder="Do you have any suggestions for us to improve our service?"></textarea>
                     <button id="submit" type="submit">Submit</button>
                 </fieldset>
             </form>
