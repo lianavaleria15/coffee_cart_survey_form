@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('../images/coffee_cart_background.jpg');
+    background-image: url('./images/coffee_cart_background.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;

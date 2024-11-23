@@ -42,4 +42,4 @@ Click [here](https://lianavaleria15.github.io/coffee_cart_survey_form/) to view 
 
 ## Screenshots
 
-![Coffee Cart Survey Form screensot](../coffee_cart_survey_form/src/images/screencapture_coffee_cart.png)
+![Coffee Cart Survey Form screensot](./images/screencapture_coffee_cart.png)
